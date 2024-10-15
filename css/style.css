@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 60%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-items {
+    width: 100%;
+    background-color: #fff;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px; 
+    padding-left: 10px; 
+}
+
+.menu-items li {
+    list-style: none;
+}
+
+.menu-items h3 {
+    color: red;
+    font-size: 1.8rem; 
+    margin: 0;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: grey;
+}
+
+.menu-items a:hover {
+    color: red;
+}
+
+.showcase-area {
+    height: 50vh;
+    background: url("../img/sillas.avif") no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-bottom: 80px; 
+}
+
+.showcase-area_plays {
+    height: 50vh;
+    background: url("../img/plays.avif") no-repeat center center/cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin: 50px 0 80px 0;
+}
+
+.categoria-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+    justify-content: center;
+}
+
+.categoria-container div {
+    padding: 10px; 
+    text-align: center;
+    background-color: #f9f9f9; 
+    border-radius: 5px;
+}
+
+.categoria-container div h3 {
+    color: red;
+    font-size: 1.6rem;
+    margin: 0; 
+}
+
+.categoria-container div h4 {
+    color: grey;
+    font-size: 1.4rem;
+    margin: 10px 0;
+}
+
+.categoria-container div p {
+    color: grey;
+    font-size: 1.2rem;
+}
+
+footer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: grey;
+    font-size: 1.2rem;
+}
+
+.created-by {
+    color: lightcoral; 
+    margin-bottom: 10px; 
+    text-align: left; 
+}
+
+.footer-content {
+    text-align: center; 
+}
